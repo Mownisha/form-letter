@@ -1,0 +1,28 @@
+#letter {
+  display: none;
+}
+
+.f {
+  text-align: left;
+}
+
+.from {
+  text-indent: 2cm;
+}
+
+.to {
+  text-indent: 2cm;
+}
+
+.b {
+  text-indent: 2cm;
+  text-align: left;
+}
+
+.thank {
+  text-align: center;
+}
+
+.your {
+  text-align: right;
+}
