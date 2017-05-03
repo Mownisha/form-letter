@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Form Letter</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Fill your name to get the form letter</h1>
+      <div>
+        <form id="formOne">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input id="name" class="form-control" type="text">
+          </div>
+
+          <div class="form-group">
+            <label for="address1">Address line1:</label>
+            <input id="address1" class="form-control" type="text">
+          </div>
+
+          <div class="form-group">
+            <label for="address2">Address line2:</label>
+            <input id="address2" class="form-control" type="text">
+          </div>
+
+          <div class="form-group">
+            <label for="address3">Address line3:</label>
+            <input id="address3" class="form-control" type="text">
+          </div>
+
+          <button type="submit" class="btn">Show me the letter!</button>
+        </form>
+      </div>
+
+      <div id="letter">
+        <h1>Form letter</h1>
+        <div class="f"><p>From</p></div>
+        <br>
+            <div class="from">
+               <p><span class="name"></span>,</p>
+               <p><span class="address1"></span>,</p>
+               <p><span class="address2"></span>,</p>
+               <p><span class="address3"></span>.</p>
+            </div>
+        <br>
+
+          <div class="f"><p>To</p></div>
+             <div class="to">
+               <p>The ABC company,</p>
+               <p>Chennai,</p>
+               <p>Tamil nadu,</p>
+               <p>India.</p>
+            </div>
+         <br>
+
+         <div class="f"><p>Respected sir,</p></div>
+
+              <div class="b"><p>And here is the full version. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p></div>
+
+                              <div class="thank">Thanking you,</div>
+
+                                                                                         <div class="your">Your's truly,</div>
+                                                                                         <div class="your"><span class="name"></span>.</div>
+      </p>
+    </div>
+    </div>
+  </body>
+</html>
